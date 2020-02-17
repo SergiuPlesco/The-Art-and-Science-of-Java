@@ -10,8 +10,6 @@ public class PrimeNumber_n extends ConsoleProgram{
 		} else {
 			println("false");
 		}
-//		println("List of prime numbers up to " + n);
-//		listOfPrimes(n);	
 	}
 	
 	/* Boolean method */
@@ -23,42 +21,4 @@ public class PrimeNumber_n extends ConsoleProgram{
 		}
 		return true;
 	}
-	
-
-	/* Void method */
-//	private void isPrime(int n){
-//		boolean rem = false;;
-//		for(int i = 2; i <= n/2; i++){
-//			rem = n % i == 0;
-//			if(rem){
-//				rem = true;
-//				break;
-//			} 
-//		}
-//		if(!rem){
-//			println(n + " is prime number.");
-//		} else {
-//			println(n + " is not prime number.");
-//		}
-//		
-//		
-//	}
-//	private void listOfPrimes(int n){
-//		boolean rem = false;
-//		for(int i = 2; i <= n; i++){
-//			for(int j = 2; j < i; j++){
-//				rem = i % j == 0;
-//				if(rem){
-//					rem = true;
-//					break;
-//				}
-//			}
-//			if(!rem){
-//				println(i);
-//			} else {
-////				println("composite " + i);
-//			}
-//		}
-//	
-//	}
 }
