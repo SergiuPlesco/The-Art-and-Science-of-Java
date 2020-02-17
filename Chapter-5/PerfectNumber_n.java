@@ -24,33 +24,22 @@ public class PerfectNumber_n extends ConsoleProgram {
 			if(n % i == 0){
 				divisor = i;
 				sum += divisor;
-//				println(divisor);
 			}
 		}
 		
 		if(sum == n){
-//			println(sum + " is perfect");
-//			succes = true;
 			return true;
 		}
 		else {
-//			println(sum + " is not perfect");
-//			succes = false;
 			return false;
 		}
-		
-		
-		
 	}
 	
 	private void listOfPerfectNumbers(){
-			
-		
 		for(int i = 1; i < 10000; i++){
 			if(isPerfect(i)){
 				println(i);
 			}
 		}
-		
 	}
 }
