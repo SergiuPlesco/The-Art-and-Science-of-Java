@@ -6,10 +6,8 @@ import java.util.Arrays;
 import acm.program.*;
 public class DutchNationalFlag extends ConsoleProgram {
 	public void run(){
-//		println(Arrays.toString(arrayBase));
 		char[] arrayRandom = {'R', 'B', 'W', 'W', 'B', 'B', 'R', 'W', 'W', 'R', 'R', 'W', 'R', 'B', 'W', };
 		dutchFlag(arrayRandom);
-//		println(Arrays.toString(arrayRandom));
 	}
 	
 	private void dutchFlag(char[] arrayRandom){
@@ -37,25 +35,6 @@ public class DutchNationalFlag extends ConsoleProgram {
 				println(Arrays.toString(arrayRandom));
 			}
 		}
-		
-		
-//		for(int i = 0; i < arrayBase.length; i++){
-//			if(arrayRandom[i] != arrayBase[i]){
-//				
-//				for(int j = i + 1; j < arrayRandom.length; j++){
-//					char letter = arrayBase[i];
-//					if(arrayRandom[j] == letter){
-//						char temp = arrayRandom[i];
-//						arrayRandom[i] = arrayRandom[j];
-//						arrayRandom[j] = temp;
-//						println("after swapping position " + i + " with " + j);
-//						println(Arrays.toString(arrayRandom));
-//						break;
-//					}
-//				
-//				}
-//			}
-//		}
 	}
 	
 	private void swap(char[] array, int p1, int p2){
