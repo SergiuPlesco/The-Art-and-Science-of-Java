@@ -9,8 +9,6 @@ public class LensImaging extends GraphicsProgram {
 		double wLens = 50;
 		double hLens = 150;
 		
-		
-		
 		GImage image = new GImage("Bell.png");
 		GLens lens = new GLens(wLens, hLens);
 		
