@@ -9,20 +9,6 @@ public class CaesarCipher extends ConsoleProgram {
 		println("This program encodes a string by shifting letters forward or backward in the alphabet.");
 		String str = "This is a secret message.";
 		int shift = -5;
-//		for(int j = 0; j < str.length(); j++){
-//			char ch = str.charAt(j);
-//			ch += shift;
-//			if(ch < 'a') ch += 26;
-//			if(ch > 'z') ch -= 26;
-//			str2 += ch;
-//		}
-//		for(int j = 0; j < str.length(); j++){
-//			char ch = str.charAt(j);
-//			ch += shift;
-//			if(ch < 'a') ch += 26;
-//			if(ch > 'z') ch -= 26;
-//			str2 += ch;
-//		}
 		
 		println(encodeToken(str, shift));
 	}
