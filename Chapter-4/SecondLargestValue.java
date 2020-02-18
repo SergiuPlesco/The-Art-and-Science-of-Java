@@ -1,13 +1,5 @@
 /*
  * Largest, second largest and smallest.
- * Avem nevoie de 3 variabile - max, seconadmax si min toate sunt egale cu primul numar introdus.
- * Se compara numerele. NextN se compara cu max, daca este mai mare ca max, atunci secondmax este max dar
- * max este nextN(pentru ca nextN este mai mare decat max).
- * 
- * Daca max este egal cu secondmax sau nextN este mai mare ca secondmax si in acelasi timp Nextn nu este egal cu max
- * atunci secondmax este egal cu nextN.
- * 
- * min este nextN daca nextN este mai mic decat min de la inceput.
  * 
  */
 import acm.program.*;
