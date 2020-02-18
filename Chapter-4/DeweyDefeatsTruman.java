@@ -15,8 +15,6 @@ public class DeweyDefeatsTruman extends GraphicsProgram {
 	private void runningString(){
 		GLabel string = new GLabel("DEWEY DEFEATS TRUMAN");
 		
-//		int fontsize = getHeight();
-//		string.setFont(new Font("Helvetica", Font.BOLD, fontsize));
 		string.setFont("Helvetica-BOLD-300");
 		double stringX = getWidth();
 		double stringY = getHeight()/2 + string.getAscent()/2;
