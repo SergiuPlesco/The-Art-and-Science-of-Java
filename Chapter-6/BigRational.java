@@ -10,7 +10,6 @@ public class BigRational extends ConsoleProgram {
 		RationalBigNumber k;
 		e = new RationalBigNumber(33325895, 4);
         f = new RationalBigNumber(2, 50000000);
-//        k = new RationalBigNumber(1, 300000000);
         g = e.add(f);
         
         println(g);
@@ -21,7 +20,6 @@ public class BigRational extends ConsoleProgram {
         BigRationalN t;
 		x = new BigRationalN(33325895, 1000000000);
         y = new BigRationalN(2, 50000000);
-//        t = new BigRationalN(1, 6);
         z = x.divide(y);
         
         println(z);
@@ -32,7 +30,6 @@ public class BigRational extends ConsoleProgram {
         BigRationalT d;
 		a = new BigRationalT(33325895, 1000000000);
         b = new BigRationalT(2, 50000000);
-//        d = new BigRationalT(1, 6);
         c = a.divides(b);
         
         println(c);
