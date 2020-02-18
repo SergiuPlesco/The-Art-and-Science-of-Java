@@ -6,18 +6,7 @@ import java.io.*;
 import java.util.*;
 public class WordCount extends ConsoleProgram {
 	public void run(){
-//		try{
-//			BufferedReader rd = new BufferedReader(new FileReader("Lear.txt"));
-//			Scanner scanner = new Scanner(rd);
-//			while(true){
-//				String line = rd.readLine();
-//				if(line == null) break;
-//				println(line);
-//			}
-//			rd.close();
-//		} catch (IOException ex){
-//			println("Can't open the file.");
-//		}
+
 		BufferedReader rd = null;
 		try {
 			rd = new BufferedReader(new FileReader("Lear.txt"));
