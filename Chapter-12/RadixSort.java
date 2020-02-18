@@ -10,18 +10,12 @@ public class RadixSort extends ConsoleProgram {
 		println(Arrays.toString(array));
 		radixSort(array);
 		println(Arrays.toString(array));
-//		int num = getMax(array);
-//		println(num);
 	}
 	
 	private void radixSort(int[] array){
 	
 		int max = getMax(array);
-//		int position = 1;
-//		while(max / position > 0){
-//			countSort(array, position);
-//			position *= 10;
-//		}
+
 		for(int position = 1; max / position > 0; position *= 10){
 			countSort(array, position);
 		}
