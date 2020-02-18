@@ -4,9 +4,7 @@
 import acm.program.*;
 public class IsSorted extends ConsoleProgram {
 	public void run(){
-//		int[] array = {15, 10, 25, 8};
 		int[] array = {3, 8, 14, 25};
-//		int[] array = {25, 20, 15, 10, 5, 0};
 		boolean str = isSorted(array);
 		println(str);
 	}
