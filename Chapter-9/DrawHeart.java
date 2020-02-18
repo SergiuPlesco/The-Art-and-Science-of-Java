@@ -37,27 +37,5 @@ public class DrawHeart extends GraphicsProgram {
 			pause(200);
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-		/*
-		 *Draw Heart with GLine and GArc
-		 * 
-		double d = 70.71; //half of square diagonal with side = 100
-		GLine leftSide = new GLine(x, y + d, x - d, y);
-		GLine rightSide = new GLine(x, y + d, x + d, y);
-		GArc leftArc = new GArc(2 * 50, 2 * 50, 225, -180);
-		GArc rightArc = new GArc(2 * 50, 2 * 50, 135, -180);
-		add(leftSide);
-		add(rightSide);
-		//(circle diameter - d(70.71)) / 2 = 14,645 pixels to move outside the square left corner, and right corner
-		add(leftArc, x - 85.355, y - 85.355); //85.355 = d + 14.645
-		add(rightArc, x - 14.645, y - 85.355);
-		 */
 	}
-	
 }
