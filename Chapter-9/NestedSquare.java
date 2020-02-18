@@ -23,9 +23,7 @@ public class NestedSquare extends QuiltBlock {
 		square2.setFilled(true);
 		square2.setColor(Color.CYAN);
 		square2.rotate(45);
-//		square.recenter();
 		square2.scale(0.7);
-//		square.sendForward();
 		add(square2);
 		
 		GPolygon square3 = new GPolygon(width, height);
@@ -36,10 +34,7 @@ public class NestedSquare extends QuiltBlock {
 		square3.addEdge(-width / 2, height / 2);
 		square3.setFilled(true);
 		square3.setColor(Color.MAGENTA);
-//		square3.rotate(45);
-//		square.recenter();
 		square3.scale(0.5);
-//		square.sendForward();
 		add(square3);
 	}
 
