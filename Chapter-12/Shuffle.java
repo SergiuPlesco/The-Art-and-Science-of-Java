@@ -22,12 +22,7 @@ public class Shuffle extends ConsoleProgram {
 		for(int p1 = 0; p1 < array.length; p1++){
 			int randPos = rgen.nextInt(array.length);
 			swapElements(array, p1, randPos);
-//			int temp = array[i];
-//			array[i] = array[rand];
-//			array[rand] = temp;
-
 		}
-//		return array;
 	}
 
 	
