@@ -20,13 +20,6 @@ public class FahrenheitToCelcius extends ConsoleProgram {
 		 * Fahrenheit = (Celcius*5/9) + 32;
 		 */
 		println("Celcius equivalent = " + Celcius);
-		
-		
-		int tollbooth = ((((((((((((((4 + 9 - 2) * 16 + 1) / 3) * 6) - 67) + 8) * 2) - 3) + 26) - 1) / 34) + 3) / 7) + 2) - 5;
-		// result is 0 with mathemagician way or letf to right way
-		int tollbooth2 = 4 + 9 - (2 * 16) + (1 / 3 * 6) - 67 + (8 * 2) - 3 + 26 - (1 / 34) + (3 / 7) + 2 - 5;
-		//applying precedence result is -50
-		println(tollbooth);
-		println(tollbooth2);
+	
 	}
 }
