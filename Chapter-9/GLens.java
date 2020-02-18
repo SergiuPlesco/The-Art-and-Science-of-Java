@@ -13,7 +13,6 @@ public class GLens extends GPolygon {
 		
 
 		addVertex(width / 2, 0);// x, y in the left top corner 
-//		addVertex(0, -height /2);// x, y in the center of lens
 		addArc(r * 2, r * 2, -angle, angle * 2);
 		addArc(r * 2, r * 2, 180 - angle, angle * 2);
 		
