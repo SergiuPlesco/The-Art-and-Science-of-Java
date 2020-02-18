@@ -35,20 +35,4 @@ public class AskYesNoQuestion_prompt extends ConsoleProgram{
 		}
 		return succes;
 	}
-	/* Predicate method using void method that displays/prints true or false */
-//	private void yesno(String str){
-//		while(true){
-//			if(str.equalsIgnorCase("yes")){
-//				println("true");
-//				break;
-//			} else if(str.equalsIgnoreCase("no")){
-//				println("false");
-//				break;
-//			} else {
-//				println("PLease answer with Yes or no?");
-//				String answer = readLine("Would you like instructions: ");
-//				str = answer;
-//			}
-//		}	
-//	}
 }
