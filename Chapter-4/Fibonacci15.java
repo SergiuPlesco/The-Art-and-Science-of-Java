@@ -10,11 +10,11 @@ public class Fibonacci15 extends ConsoleProgram {
 		
 		for(int i = 0; i <= Fibb; i++){
 			
-			println("F" + i + " = " + start);//Fibonacci stsrt with 0
+			println("F" + i + " = " + start);
 			
-			int addPreceding = start + sequence;// formula care genereaza fibb, 0+1=1
-			start = sequence;// start devine sequence si la fiecare ciclu se schimba
-			sequence = addPreceding;// sequence devine addPreceding la fiecare ciclu se schimba
+			int addPreceding = start + sequence;
+			start = sequence;
+			sequence = addPreceding;
 		}
 	}
 	private final static int Fibb = 15;
