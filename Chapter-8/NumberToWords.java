@@ -9,20 +9,13 @@ public class NumberToWords extends ConsoleProgram {
 		
 		while(true){
 			int n = readInt("Enter a number: ");
-//			if(n < 0){
-//				break;
-//			} else {
 				println(numberToWords(n));
-//			}
 		}
-//		println("You entered a negative number. Program stopped.");
 	}
+	
 	private static String numberToWords(int n){
-
 		String num = "";
-		
 			if(n == 0) return "zero";
-			
 			if (n < 0) { 
                 // convert the number to a string
                 String numberStr = "" + n;
