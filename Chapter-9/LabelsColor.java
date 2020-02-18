@@ -13,28 +13,6 @@ import acm.util.*;
 public class LabelsColor extends GraphicsProgram {
 	public void run(){
 		
-		
-//		GLabel red = addGLabel("RED", 1);
-//		add(red);
-//		
-//		GLabel orange = addGLabel("ORANGE", 2);
-//		add(orange);
-//		
-//		GLabel yellow = addGLabel("YELLOW", 3);
-//		add(yellow);
-//		
-//		GLabel green = addGLabel("GREEN", 4);
-//		add(green);
-//		
-//		GLabel blue = addGLabel("BLUE", 5);
-//		add(blue);
-//		
-//		GLabel cyan = addGLabel("CYAN", 6);
-//		add(cyan);
-//		
-//		GLabel magenta = addGLabel("MAGENTA", 7);
-//		add(magenta);
-		
 		String text = "Label";
 		GLabel label = new GLabel(text);
 		label.setFont("Arial-bold-48");
